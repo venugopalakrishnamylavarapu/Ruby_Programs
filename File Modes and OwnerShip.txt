@@ -1,0 +1,23 @@
+File Modes and Ownership:
+Use the chmod method with a mask to change the mode or permissions/access list of a file: 
+Following is the example to change mode of an existing file test.txt to a mask value: 
+#!/usr/bin/ruby
+file = File.new( "test.txt", "w" ) 
+file.chmod( 0755 )
+Following is the table, which can help you to choose different mask for chmod method:
+Mask Description
+0700 rwx mask for owner
+0400 r for owner
+0200 w for owner
+0100 x for owner
+0070 rwx mask for group
+0040 r for group
+0020 w for group
+0010 x for group
+0007 rwx mask for other
+0004 r for other
+0002 w for other
+0001 x for other
+4000 Set user ID on execution
+2000 Set group ID on execution
+1000 Save swapped text, even after use

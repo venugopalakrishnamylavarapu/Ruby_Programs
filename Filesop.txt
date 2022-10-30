@@ -1,0 +1,2 @@
+This is a simple text file for file.new 
+and file.open command running purpose
