@@ -10,6 +10,7 @@ class Customer
 		puts"customer id is : #@cust_id"
 		puts"customer name is : #@cust_name"
 		puts"customer addr is : #@cust_addr"
+		puts"customer count is : #@@no_of_customers"
 	end		
 end
 #to create new objects<-- this is a comment by the way
