@@ -1,15 +1,19 @@
 =begin
 this is a global variable concept class.
 =end
+$price=259234
 class Class1
-	$price=259234
 	def printglobal
+		money=250
 		puts"Declared global variable value in Class1 is : #$price"
+		puts"Declared local variable value in Class1 is : #{money}"
 	end
 end
 class Class2
 	def printglobal
+		money=750
 		puts"Declared global variable value in Class2 is : #$price"
+		puts"Declared local variable value in Class2 is : #{money}"
 	end
 end
 
